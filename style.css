@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300&family=Rubik:ital,wght@1,300&display=swap');
+
+body {
+  background-color: rgb(11, 242, 219);
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcABtP9BQDd_aB56XWm81yI6aYr7ryqTvuAw&usqp=CAU');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  color: rgb(255, 253, 240);
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+#batata {
+  border-radius: 25px;
+}
+#batata {
+  box-shadow: 5px 10px 20px rgb(89, 255, 0);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #1c1b1b00;
+  background-color: #00000000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #91d80c;
+}
+
+li a.active {
+  color: rgb(41, 15, 213);
+  background-color: #04aa6d;
+}
+
+.container {
+  display: flex;
+}
